@@ -2,11 +2,11 @@
 
 from flask import Flask, send_file
 from PIL import Image
-# import numpy as np
+from os.path import dirname, abspath, join
 import io
 
 app = Flask(__name__)
-
+dir = dirname(abspath(__file__))
 
 @app.route("/arknights/arknightsdraw", methods=['POST', 'GET'])
 def arknights():
@@ -19,7 +19,7 @@ def arknights_draw():
     # 从数组加载图片
     # arr = np.array(raw_data)
     # img = Image.fromarray(arr.astype('uint8'))
-    img = Image.open("../docs/main.png")
+    img = Image.open(join(dir, '..', 'docs', 'main.png'))
     # 在内存中创建图片对象
     file_object = io.BytesIO()
     # write PNG in file-object
