@@ -23,9 +23,9 @@ def arknights_draw():
     # 在内存中创建图片对象
     file_object = io.BytesIO()
     # write PNG in file-object
-    img.save(file_object, 'PNG')
+    img.save(file_object, 'png')
     file_object.seek(0)
-    return send_file(file_object, mimetype='image/PNG')
+    return send_file(file_object, mimetype='image/png')
 
 
 
