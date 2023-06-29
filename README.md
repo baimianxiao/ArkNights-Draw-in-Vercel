@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1>ArkNights-Draw-in-Vercel</h1>
+  <h1>ArkNights Draw</h1>
   
   将[baimianxiao/Arknights-Draw](https://github.com/baimianxiao/Arknights-Draw)一键部署在[Vercel](https://vercel.com)
   
