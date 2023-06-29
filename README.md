@@ -12,3 +12,4 @@
 
 ## 😶‍🌫️Site Preview
 * **Jyunko**: <https://arknights-draw.jyunko.cn>
+* **Vercel**: <https://ark-nights-draw-in-vercel.vercel.app>
